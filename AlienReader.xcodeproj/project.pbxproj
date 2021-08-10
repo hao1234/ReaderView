@@ -11,6 +11,11 @@
 		2278C62226C217C40095B4A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C62126C217C40095B4A4 /* ContentView.swift */; };
 		2278C62426C217C60095B4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2278C62326C217C60095B4A4 /* Assets.xcassets */; };
 		2278C62726C217C60095B4A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2278C62626C217C60095B4A4 /* Preview Assets.xcassets */; };
+		2278C63026C223D90095B4A4 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C62F26C223D80095B4A4 /* NewsCell.swift */; };
+		2278C63326C22D710095B4A4 /* WebviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C63226C22D710095B4A4 /* WebviewController.swift */; };
+		2278C63C26C231B10095B4A4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C63B26C231B10095B4A4 /* WebView.swift */; };
+		2278C63F26C231DF0095B4A4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C63E26C231DF0095B4A4 /* SafariView.swift */; };
+		2278C64326C232130095B4A4 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2278C64226C232130095B4A4 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		2278C62326C217C60095B4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2278C62626C217C60095B4A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2278C62826C217C60095B4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2278C62F26C223D80095B4A4 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		2278C63226C22D710095B4A4 /* WebviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewController.swift; sourceTree = "<group>"; };
+		2278C63B26C231B10095B4A4 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		2278C63E26C231DF0095B4A4 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		2278C64226C232130095B4A4 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +62,14 @@
 		2278C61E26C217C40095B4A4 /* AlienReader */ = {
 			isa = PBXGroup;
 			children = (
+				2278C64126C232010095B4A4 /* Model */,
+				2278C63526C231200095B4A4 /* View */,
 				2278C61F26C217C40095B4A4 /* AlienReaderApp.swift */,
 				2278C62126C217C40095B4A4 /* ContentView.swift */,
 				2278C62326C217C60095B4A4 /* Assets.xcassets */,
 				2278C62826C217C60095B4A4 /* Info.plist */,
 				2278C62526C217C60095B4A4 /* Preview Content */,
+				2278C63226C22D710095B4A4 /* WebviewController.swift */,
 			);
 			path = AlienReader;
 			sourceTree = "<group>";
@@ -67,6 +80,24 @@
 				2278C62626C217C60095B4A4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2278C63526C231200095B4A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2278C62F26C223D80095B4A4 /* NewsCell.swift */,
+				2278C63B26C231B10095B4A4 /* WebView.swift */,
+				2278C63E26C231DF0095B4A4 /* SafariView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2278C64126C232010095B4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2278C64226C232130095B4A4 /* MenuItem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2278C64326C232130095B4A4 /* MenuItem.swift in Sources */,
 				2278C62226C217C40095B4A4 /* ContentView.swift in Sources */,
+				2278C63C26C231B10095B4A4 /* WebView.swift in Sources */,
+				2278C63026C223D90095B4A4 /* NewsCell.swift in Sources */,
 				2278C62026C217C40095B4A4 /* AlienReaderApp.swift in Sources */,
+				2278C63F26C231DF0095B4A4 /* SafariView.swift in Sources */,
+				2278C63326C22D710095B4A4 /* WebviewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
